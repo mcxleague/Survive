@@ -51,6 +51,38 @@ body{
 	font-size: 40px;
 }
 
+.learn-more{
+	width: 90%;
+}
+
+.learn-more h4{
+	font-style: italic;
+	font-size: 12px;
+}
+
+.learn-more input{
+	display: block;
+	margin: 12px auto;
+	width: 100%;
+	max-width: 400px;
+	box-sizing: border-box;
+	padding: 14px 20px;
+	border-radius: 30px;
+	border: 1px solid #ddd;
+	outline: none;
+}
+
+.learn-more-btn{
+	background: linear-gradient(125deg, #3498db, #34495e);
+	color: #fff;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.learn-more-btn:hover{
+	opacity: .7;
+}
+
 .subscribe{
 	width: 90%;
 }
