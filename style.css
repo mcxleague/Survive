@@ -9,9 +9,11 @@ body{
 	padding: 0;
 }
 
-       .scrollable-place {
-              height: 0px;
-        }
+scrollable-place {
+
+height: 3000px;
+
+}
 
     iframe{      
         display: block;  /* iframes are inline by default */   
