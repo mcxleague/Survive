@@ -35,3 +35,18 @@ function getTrueNumber(x) {
   if (x<10) return '0'+x;
   else return x;
 }
+
+functiondisable() {
+// To get the scroll position of current webpage
+TopScroll = window.pageYOffset || document.documentElement.scrollTop;
+LeftScroll = window.pageXOffset || document.documentElement.scrollLeft,
+
+// if scroll happens, set it to the previous value
+window.onscroll = function() {
+window.scrollTo(LeftScroll, TopScroll);
+        };
+}
+
+functionenable() {
+window.onscroll = function() {};
+}
